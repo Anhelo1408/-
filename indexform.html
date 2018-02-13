@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Кодировка веб-страницы -->
+    <meta charset="utf-8">
+    <!-- Настройка viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="style/style.css" />
+    <!-- Подключаем Bootstrap CSS 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style/bootstrap.min.css" /> -->
+</head>
+
+<body>
+    <div id="contact-form"
+        style="font-family: 'Arial Narrow', 'Nimbus Sans L', sans-serif;">
+        <form id="contact" method="post" action"">
+            <fieldset>
+                <label for="name">First Name</label>
+                <input type="text" required id="first name" required pattern="[А-ЯЇЄЩ]{1}[а-яєїєщ]{10}" placeholder="First Name" />
+            </fieldset>
+            <fieldset>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" required id="name" required pattern="[А-ЯЇЄЩИ]{1}[а-єїиієщ]{10}" placeholder="Last Name" />
+                </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" required name="email"  />
+                
+            </fieldset>
+            <fieldset>
+                    <label for="age">Your age</label>
+                    <input type="number" required pattern="[1-100]{2}"/>
+                    
+                </fieldset>
+       
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+    </div> <!-- end of contact form-->
+    
+</body>
+
+</html>
