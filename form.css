@@ -1,32 +1,42 @@
-#contact-form {
+#form {
+    background-color: rgb(216, 236, 228);
     width: 400px;
     border-radius: 17px;
     border-color: bisque;
-    border-style: solid none;
     top: 60px;
-    left: 170px;
-    padding: 10px 0px ;
     text-align: center;
+
+    padding: 10px 0px ;  
     margin: 0 auto;
+    box-shadow: 3px 3px 1px rgb(131, 146, 100);
     
     
 }
 
-h2 {
-    text-align: center;
+
+p1 {
+    font-size: 50px;
+    font-family: serif;
+    color: orange;
  
 }
 
-fieldset {
-    border: 0;
+p2 {
+    font-style: normal;
+    font-size: 15px;
 }
 
-#submit:hover {
-    background: linear-gradient(rgb(133, 15, 243), rgb(1, 12, 41)) #ff0000;
+fieldset {
+    border: 1px;
+    
+}
+
+#button:hover {
+    background: linear-gradient(#e27d12, rgb(231, 143, 10)) #d68b8b;
     cursor: pointer;
 }
 
-#submit {
+#button {
     display: inline-block;
   color: white;
   text-decoration: none;
@@ -38,7 +48,7 @@ fieldset {
   border-radius: 6px;
   background: linear-gradient(#F3AE0F, #E38916) #E38916;
   transition: 0.2s;
-  margin-top: 10px;
+  margin-top: 20px;
 
 }
 

@@ -2,58 +2,44 @@
 <html>
 
 <head>
-    <!-- Кодировка веб-страницы -->
     <meta charset="utf-8">
-    <!-- Настройка viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="style/style.css" />
-    <!-- Подключаем Bootstrap CSS 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>-->
     <link rel="stylesheet" href="form.css">
+   
+    <script src="form.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <body>
-    <h2>Contact Form</h2>
-    <div id="contact-form" style="font-family: 'Arial Narrow', 'Nimbus Sans L', sans-serif;">
-        <form id="contact" method="post" action "">
+    <div class="row">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-2" id="form">
+
             <fieldset>
-                <label for="name">First Name</label>
-                <input type="text" required id="first_name" required pattern="[A-ZА-ЯЇЄІ]{1}[a-zа-яєїі]{1,10}" placeholder="First Name" title="First name should only contain one capital letter. e.g. Irina"
-                />
-                <br />
-                <br />
+                <label for="captcha">
+                    <p1>Captcha</p1>
+                    <br>
+                    <p2>Write the word that you see here "reversed!"</p2></label>
 
-                <label for="lastname">Last Name</label>
-                <input type="text" required id="name" required pattern="[A-ZА-ЯЇЄІ]{1}[a-zа-яєїі]{1,10}" placeholder="Last Name" title="Last name should only contain one capital letter. e.g. Ivanchuk"
-                />
-                <br />
-                <br />
+                <input type="text" id="any" readonly value="" />
+                <br>
+                <br>
+                <input type="text" id="userinput" required placeholder="write the word here" autofocus/>
 
-                <label for="email">Email</label>
-                <input type="email" required name="email" placeholder="abc@gmail.com" />
-                <br />
-                <br />
-
-
-                <label for="age">Your age</label>
-                <input type="number" id="age" required max=100 placeholder="How old are you?" />
-                <br />
-                <br />
-
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Enter your password">
-                <br />
+                <button id="button" onclick="check()" onsubmit="return validateForm()" >Click me when done</button>
+                <p id="demo"></p>
 
             </fieldset>
 
+        </div>
+        <div class="col-lg-5"></div>
 
-            <div id=button>
-                <button type="submit" value="Submit" id="submit">Submit</button>
-            </div>
-        </form>
     </div>
-    <!-- end of contact form-->
 
 </body>
 
