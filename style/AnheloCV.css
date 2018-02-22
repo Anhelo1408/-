@@ -1,0 +1,99 @@
+#topnavi {
+    background-color: #634d52;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#topnavi>p{
+    font-family: 'Times New Roman', Times, serif;
+    color: ghostwhite;
+    font-size: 25px;
+    margin-top: 1%;  
+}
+
+#disabled{
+    background-color: #634d52;
+    color: white;
+    
+}
+
+#mainpart{
+    background-color: #e6dcdc78;
+    height: 2500px;
+}
+
+#photo {
+    margin-top: 20%;
+    margin-left: 35%;
+    box-shadow:  3px 3px 3px #b5a1a1a3;   
+
+    
+}
+
+#personalinfobox{
+    margin-bottom: 10%;
+    
+}
+
+#personalinfo>p{
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#personalinfo>ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#mainpart>ul{
+    margin-left: 12%; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#navigation{
+    margin-top: 85px;
+    width: 200px;
+    
+}
+
+#work>p  {
+   
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+
+}
+
+#tablework{
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 4px #8e8383cc ;
+}
+
+
+
+#Education>p
+{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+}
+
+#Education_table{
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 4px #8e8383cc ;
+}
+
+#personal_skills>p{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px; 
+}
