@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <script src="style/jquery-3.3.1.min.js"></script>
+    <script src="style/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+
+
+</head>
+
+
+<body>
+
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-5" id="form">
+
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <p>Math Exercise</p>
+                </div>
+                <div class="col-lg-3">
+                    <button type='button' onclick="location.reload(); " value='' id="refreshPage">
+                        </span>
+                        <i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="row">
+
+
+                <div class="col-lg-4">
+
+                    <span>
+                        <strong>first number range</strong>
+                    </span>
+                    <br>
+                    <input type="number" id="number1min" placeholder="min" value="" /> to
+                    <input type="number" id="number1max" placeholder="max" value="" />
+
+                </div>
+
+                <div class="col-lg-1">
+                    <p1>
+                        <strong>Operation</strong>
+                    </p1>
+                    <br>
+
+
+                    <select id="optional">
+                        <option>*</option>
+                        <option>/</option>
+                        <option>+</option>
+                        <option>-</option>
+                    </select>
+
+
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <span>
+                        <strong>second number range</strong>
+                    </span>
+                    <br>
+                    <input type="number" id="number2min" placeholder="min" value="" /> to
+                    <input type="number" id="number2max" placeholder="max" value="" />
+
+
+
+                </div>
+                <div class="col-lg-3">
+                    <strong>Generated expression</strong>
+                    <button id="btngenerate" onclick="generateIntoField();">Generate</button>
+                </div>
+
+            </div>
+
+
+            <div class=row>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div id="wrongValidation"></div>
+                    <div id="wrongValidationMin"></div>
+                    <div id="generated_equation"><p>________</p></div>
+
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+
+
+            <div class="row">
+
+
+                <div class="col-lg-3">
+                    <strong>Check your answer here</strong>
+                    <br>
+                    <input type="number" id="userinput" value="" />
+                    <button id="btncheck" onclick="Check();">Check</button>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <span class="texthidden" id="correct">
+                        <br>
+                        <strong>correct answers:</strong>
+                    </span>
+
+                    <div id="target"></div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <span class="texthidden" id="inCorrect">
+                        <br>
+                        <strong>incorrect answers:</strong>
+                    </span>
+
+                    <div id="Failscounter"></div>
+                </div>
+
+
+            </div>
+
+            <!-- </label> -->
+
+            <div>*this exsercise was created to help children and grownups train their math obilities via multiplication, division,
+                addition and subtraction.</div>
+
+
+
+
+
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+
+</body>
+
+
+
+
+</html>

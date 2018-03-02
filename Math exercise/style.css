@@ -1,0 +1,96 @@
+
+#form {
+    background-color: #d8ece4;
+    height: 415px;
+    border-radius: 17px;
+    border-color: bisque;
+    top: 60px;
+    text-align: center;
+
+    padding: 10px 0px ;  
+    
+    box-shadow: 3px 3px 1px rgb(131, 146, 100);
+    
+}
+
+input:focus { 
+    background-color: 	#FFF8DC;
+}
+
+#number1min, #number1max, #number2min, #number2max{
+    width: 80px;
+    border-radius: 10px;
+    outline: none;
+}
+
+p {
+    font-size: 40px;
+    font-family: serif;
+    color: orange;
+}
+
+#optional {
+    
+    border-radius: 10px;
+}
+
+
+
+#btngenerate, #btncheck, #refreshPage{
+    margin-right: 15px;
+    margin-top: 4px;
+    display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s; 
+ 
+
+}
+
+#btncheck {
+    margin-right: -10px;
+}
+
+#btngenerate:hover, #refreshPage:hover{
+    background: linear-gradient(#e27d12, rgb(231, 143, 10)) #d68b8b;
+    cursor: pointer;
+}
+
+#btncheck:hover {
+    background: linear-gradient(#e27d12, rgb(231, 143, 10)) #d68b8b;
+    cursor: pointer;
+}
+
+ 
+
+#userinput{
+    width: 120px;
+    border-radius: 10px; 
+    outline: none;
+}
+
+#target, #Failscounter {
+    font-size: 20px;
+    font-family: serif;
+    color: orange; 
+}
+
+.wrongAnswer {
+    border-color: salmon;
+}
+.rightAnswer {
+    border-color: #87e2be; 
+}
+
+#wrongValidationMin, #wrongValidation{
+    font-size: 18px;
+    font-family: serif;
+    color: rgb(255, 60, 0);
+}
