@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Кодировка веб-страницы -->
+  <meta charset="utf-8">
+  <!-- Настройка viewport -->
+  <title>CV</title>
+  <link rel="stylesheet" href="style/logincss.css" />
+  <!-- Подключаем Bootstrap CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="js/myJs/login.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="style/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="name" autocomplete="off" />
+        <input type="password" placeholder="password" autocomplete="off" />
+        <input type="text" placeholder="email address" autocomplete="off" />
+        <button>create</button>
+        <p class="message">Already registered?
+          <a href="#">Sign In</a>
+        </p>
+      </form>
+      <div class="login-form">
+        <input type="text" id="login" placeholder="username" autocomplete="off" />
+        <input type="password" id="pass" placeholder="password" autocomplete="off" />
+        <button id="btn">login</button>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+
+
+      </tbody>
+    </table>
+
+    <button onclick="location.href='http://localhost:3000/cv'" type="button" id="homebtn">
+   Home Page</button>
+  </div>
+</body>
+
+</html>

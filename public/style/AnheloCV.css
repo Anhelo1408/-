@@ -1,0 +1,164 @@
+#facebook, #inst, #pint, #git, #linked {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -40px;
+  margin-left: 10px;
+}
+
+#topnavi {
+  background-color: #634d52;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#topnavi>.row>.head>p {
+  font-family: 'Times New Roman', Times, serif;
+  color: ghostwhite;
+  font-size: 25px;
+  margin-top: 1%;
+}
+
+#disabled {
+  background-color: #634d52;
+  color: white;
+}
+
+#mainpart {
+  background-color: #e6dcdc78;
+  height: 2900px;
+}
+
+#photo {
+  margin-top: 20%;
+  margin-left: 35%;
+  box-shadow: 3px 3px 3px #b5a1a1a3;
+}
+
+#personalinfobox {
+  margin-bottom: 10%;
+}
+
+#personalinfo>p {
+  text-align: center;
+  margin-top: 25%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#personalinfo>ul {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#mainpart>ul {
+  margin-left: 12%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#navigation {
+  margin-top: 85px;
+  width: 200px;
+}
+
+#work>p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#tablework {
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 4px #8e8383cc;
+}
+
+#Education>p {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#Education_table {
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 4px #8e8383cc;
+}
+
+#personal_skills>p {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#contact {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+  background-color: #634d52;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+  background-color: #ac7781;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+  border-radius: 2px;
+  background-color: #f3efef;
+  padding: 20px;
+}
